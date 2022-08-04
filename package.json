@@ -10,8 +10,6 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "chokidar": "^3.5.3",
-    "gridjs": "^5.0.2",
-    "gridjs-react": "^5.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-bootstrap-icons": "^1.8.4",
