@@ -28,7 +28,7 @@ export default class PersonList extends React.Component {
         <Table className="container mt-5 sm-3 table table-dark table-striped">
           <thead>
             <tr>
-              <td>ID</td>
+              <td>Id</td>
               <td>NAME</td>
               <td>USERNAME</td>
               <td>EMAIL</td>
@@ -40,7 +40,7 @@ export default class PersonList extends React.Component {
           </thead>
           {this.state.persons.map((row, id) => {
             return (
-              <tbody>
+              <tbody key={id}>
                 <tr>
                   <td>{row.id}</td>
                   <td>{row.name}</td>
