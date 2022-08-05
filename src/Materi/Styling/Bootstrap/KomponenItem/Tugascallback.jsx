@@ -28,7 +28,7 @@ export default class PersonList extends React.Component {
         <Table className="container mt-5 sm-3 table table-dark table-striped">
           <thead>
             <tr>
-              <td>Id</td>
+              <td>ID</td>
               <td>NAME</td>
               <td>USERNAME</td>
               <td>EMAIL</td>
