@@ -39,30 +39,31 @@ export default class PortalBeritaApp extends React.Component {
             <SearchFormApp searchText={(text) => this.setState({ term: text })} />
           </div>
         </div>
+        <section id="card">
+          {this.state.article.map((data, id) => {
+            const { title, url, publishedAt, urlToImage, content } = data;
+            const date = publishedAt.split("T");
+            const dateHeadline = date[0];
 
-        {this.state.article.map((data, id) => {
-          const { title, url, publishedAt, urlToImage, content } = data;
-          const date = publishedAt.split("T");
-          const dateHeadline = date[0];
-
-          return (
-            <article key={id}>
-              <Card style={{ width: "20rem", padding: "5px 10px", margin: "10px 10px" }} className="carditem">
-                <Card.Img variant="top" src={urlToImage} />
-                <Card.Body>
-                  <Card.Title>{title}</Card.Title>
-                  <Card.Text>{content}</Card.Text>
-                  <Card.Text>{dateHeadline}</Card.Text>
-                  <Button variant="warning">
-                    <a href={url} target="_blank" rel="noreferrer">
-                      Read more
-                    </a>
-                  </Button>
-                </Card.Body>
-              </Card>
-            </article>
-          );
-        })}
+            return (
+              <article key={id}>
+                <Card style={{ width: "20rem", padding: "5px 10px", margin: "10px 10px" }} className="carditem">
+                  <Card.Img variant="top" src={urlToImage} />
+                  <Card.Body>
+                    <Card.Title>{title}</Card.Title>
+                    <Card.Text>{content}</Card.Text>
+                    <Card.Text>{dateHeadline}</Card.Text>
+                    <Button variant="warning">
+                      <a href={url} target="_blank" rel="noreferrer">
+                        Read more
+                      </a>
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </article>
+            );
+          })}
+        </section>
       </>
     );
   }
