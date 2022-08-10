@@ -1,10 +1,10 @@
 import React from "react";
-import Styling from "./Materi/Styling";
+import PortalBeritaApp from "./Materi/PortalBeritaApp";
 
 function App() {
   return (
     <div className="App">
-      <Styling />
+      <PortalBeritaApp />
     </div>
   );
 }
