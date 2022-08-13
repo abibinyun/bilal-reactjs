@@ -1,10 +1,10 @@
 import React from "react";
-import PortalBeritaApp from "./Materi/PortalBeritaApp";
+import FormRegistrasi from "./Materi/FormRegistrasi";
 
 function App() {
   return (
     <div className="App">
-      <PortalBeritaApp />
+      <FormRegistrasi />
     </div>
   );
 }
