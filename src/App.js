@@ -1,10 +1,10 @@
 import React from "react";
-import FormRegistrasi from "./Materi/FormRegistrasi";
+import TodoList from "./TugasLive/Todolist";
 
 function App() {
   return (
     <div className="App">
-      <FormRegistrasi />
+      <TodoList />
     </div>
   );
 }
