@@ -15,7 +15,7 @@ export default class Reusable extends React.Component {
 
   render() {
     return (
-      <div style={{ marginTop: "20px" }}>
+      <div className="main" style={{ marginTop: "20px" }}>
         <Bar value={this.state.value} />
         <Product reciveValue={this.handleValue} />
       </div>

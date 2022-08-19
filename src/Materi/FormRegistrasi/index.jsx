@@ -56,7 +56,7 @@ export default class FormRegistrasi extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container main">
         <div className="bg-form">
           {this.state.errors && <ShowErrors errors={this.state.errors} />}
           <h3>Register Page</h3>

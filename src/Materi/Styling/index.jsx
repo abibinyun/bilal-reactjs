@@ -4,7 +4,7 @@ import Bootstrap from "./Bootstrap";
 export default class Styling extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <Bootstrap />
       </div>
     );

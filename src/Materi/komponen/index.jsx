@@ -5,7 +5,7 @@ import FunctionalComponent from "./pembahasan/FunctionalComponent";
 export default class Komponen extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <ClassComponent nama="ini adalah props" kota="Jakarta" />
         <FunctionalComponent nama="ini adalah props" kota="Jakarta" />
       </div>

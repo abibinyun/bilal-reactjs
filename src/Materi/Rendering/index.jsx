@@ -6,7 +6,7 @@ import Variable from "./pembahasan/Variable";
 export default class Rendering extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <h1>hello from Rendering component</h1>
         <hr />
         <Variable />

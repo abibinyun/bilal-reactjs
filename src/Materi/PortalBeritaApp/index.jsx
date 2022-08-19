@@ -32,7 +32,7 @@ export default class PortalBeritaApp extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="main">
         <div className="showcase">
           <div className="overlay px-5">
             <h1 className="text-4xl font-bold text-white text-center mb-4 capitalize lg:text-6xl">Viewing articles about {this.state.term}</h1>
@@ -64,7 +64,7 @@ export default class PortalBeritaApp extends React.Component {
             );
           })}
         </section>
-      </>
+      </div>
     );
   }
 }
