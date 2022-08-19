@@ -13,6 +13,7 @@ import Komponen from "../komponen";
 import FormRegistrasi from "../FormRegistrasi";
 import Form from "../Form";
 import Styling from "../Styling";
+import TodoList from "../../TugasLive/Todolist";
 
 const Routing = () => {
   return (
@@ -38,6 +39,7 @@ const Routing = () => {
         <Route path="/formregistrasi" element={<FormRegistrasi />} />
         <Route path="/form" element={<Form />} />
         <Route path="/styling" element={<Styling />} />
+        <Route path="/todolist" element={<TodoList />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/post" element={<Post />} /> */}
       </Routes>

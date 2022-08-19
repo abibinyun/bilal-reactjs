@@ -35,16 +35,17 @@ a.dropdown-item {
   background-color: rgb(68, 68, 68);
 }
 a.dropdown-item a {
-  font-size: 10px;
+  font-size: 17px;
+  padding: 3px;
 }
 
 .sidebar a.home {
   padding-top: 3rem;
 }
 
-* {
+/* * {
   font-size: 10px;
-}
+} */
 
 div.dropdown-menu.show {
   background-color: rgb(39, 39, 39);

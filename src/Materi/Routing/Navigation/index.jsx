@@ -33,6 +33,9 @@ const Navigation = () => {
         <NavDropdown.Item>
           <Link to="/rendering">Rendering</Link>
         </NavDropdown.Item>
+        <NavDropdown.Item>
+          <Link to="/todolist">Todo list</Link>
+        </NavDropdown.Item>
       </NavDropdown>
       {/* <Link to="/service">
         <i class="fa-solid fa-list-check"></i> Tugas

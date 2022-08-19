@@ -11,7 +11,7 @@ const style = {
 
 function TodoList() {
   return (
-    <div style={style}>
+    <div style={style} className="bg">
       <Lists />
     </div>
   );
