@@ -1,11 +1,11 @@
 import React from "react";
-import Routing from "./Materi/Routing";
+import Redux from "./Materi/Redux";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Routing />
+        <Redux />
       </header>
     </div>
   );
